@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - runs: |
+      - run: |
           env
       - uses: jcii/jcii-dump-context-action@0.1.1
         with:
