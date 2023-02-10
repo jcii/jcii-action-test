@@ -1,0 +1,15 @@
+
+name: dump context
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/jcii-dump-context-action@0.1.0
+        with:
+          milliseconds: 1000
