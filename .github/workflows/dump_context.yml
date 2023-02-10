@@ -17,4 +17,4 @@ jobs:
           milliseconds: 1000
           blahblah_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          env | grep INPUT 
+          env | sort
