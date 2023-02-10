@@ -12,8 +12,8 @@ jobs:
     steps:
       - run: |
           env | sort
-      - uses: jcii/jcii-dump-context-action@0.1.3
+      - uses: jcii/jcii-dump-context-action@0.1.4
         with:
           milliseconds: 1000
       - run: |
-          env | grep INPUT | sort
+          env | grep INPUT 
