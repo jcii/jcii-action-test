@@ -15,3 +15,5 @@ jobs:
       - uses: jcii/jcii-dump-context-action@0.1.2
         with:
           milliseconds: 1000
+      - run: |
+          env | grep INPUT | sort
