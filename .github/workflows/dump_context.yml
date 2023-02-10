@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          env
+          env | sort
       - uses: jcii/jcii-dump-context-action@0.1.1
         with:
           milliseconds: 1000
