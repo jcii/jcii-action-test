@@ -12,8 +12,9 @@ jobs:
     steps:
       - run: |
           env | sort
-      - uses: jcii/jcii-dump-context-action@0.1.4
+      - uses: jcii/jcii-dump-context-action@0.1.5
         with:
           milliseconds: 1000
+          blahblah_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           env | grep INPUT 
