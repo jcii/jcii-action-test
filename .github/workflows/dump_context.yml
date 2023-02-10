@@ -10,6 +10,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: jcii/jcii-dump-context-action@0.1.0
+      - uses: jcii/jcii-dump-context-action@0.1.1
         with:
           milliseconds: 1000
