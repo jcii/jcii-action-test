@@ -10,6 +10,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - runs: |
+          env
+          pwd
+          whoami        
       - uses: jcii/jcii-dump-context-action@0.1.1
         with:
           milliseconds: 1000
