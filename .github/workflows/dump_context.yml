@@ -12,6 +12,6 @@ jobs:
     steps:
       - run: |
           env | sort
-      - uses: jcii/jcii-dump-context-action@0.1.1
+      - uses: jcii/jcii-dump-context-action@0.1.2
         with:
           milliseconds: 1000
